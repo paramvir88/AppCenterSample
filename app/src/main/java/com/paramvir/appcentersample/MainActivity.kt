@@ -12,5 +12,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         AppCenter.start(application, "38d6b371-11ca-498d-9909-c45b50c87a9d", Analytics::class.java, Crashes::class.java)
+
+
+
+    }
+
+    private fun dummyMethod():String{
+        return "";
     }
 }
